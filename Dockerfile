@@ -1,4 +1,4 @@
-FROM pzlc/fedora:v3
+FROM pzlc/fedora:v7
 RUN dnf upgrade --refresh --assumeyes
 RUN dnf install --assumeyes \
   java-1.8.0-openjdk-headless
